@@ -1,0 +1,107 @@
+/* Start About Us */
+
+@media only screen and (max-width: 991px) {
+    div.side-line {
+        display: none;
+    }
+
+    .about-us-content {
+        width: 100% !important;
+    }
+}
+
+/* End About Us */
+
+/* Start Our Cards */
+
+@media only screen and (max-width: 600px) {
+    section.our-cards {
+        height: auto !important;
+    }
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+@media only screen and (max-width: 600px) {
+    .button-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+}
+
+/* End  Our Cards */
+
+/* Start Our Partners */
+
+@media only screen and (max-width: 600px) {
+    section.partners .logos div.logo {
+        flex-basis: unset !important;
+    }
+}
+
+/* End Our Partner */
+
+/* Start contact us */
+@media only screen and (max-width: 600px) {
+    .contact-info-wrapper .map-wrapper iframe {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-info-wrapper
+        .contact-info-details-wrapper
+        .contact-info-item
+        .contact-us-details
+        span.value {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .contact-info-wrapper
+        .contact-info-details-wrapper
+        .contact-info-item
+        .contact-us-details
+        span.label {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    div.map-wrapper {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    iframe {
+        width: 100% !important;
+    }
+}
+
+/* End contact us */
+
+/*  */
+
+@media only screen and (max-width: 600px) {
+    div.flex-order-responsive-1 {
+        order: 1;
+    }
+    div.flex-order-responsive-2 {
+        order: 2;
+    }
+    div.our-cards-info-header {
+        font-size: 50px !important;
+        text-align: center;
+    }
+    div.our-cards-info-value {
+        font-size: 15px !important ;
+    }
+}
+
+/*  */

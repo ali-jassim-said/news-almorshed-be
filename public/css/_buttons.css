@@ -1,0 +1,70 @@
+button {
+  outline: none;
+  border: none;
+}
+
+button a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  width: 100%;
+}
+
+/* generic buttons  */
+button.white-button,
+button.blue-button,
+button.soft-white-button,
+button.soft-blue-button {
+  width: 205px;
+  min-height: 56px;
+  border-radius: 12px;
+}
+
+button.white-button {
+  color: var(--dark-blue);
+  background-color: var(--white);
+}
+
+button.soft-white-button {
+  color: var(--white);
+  background-color: #ffffff40;
+}
+
+button.blue-button {
+  color: var(--white);
+  background-color: var(--dark-blue);
+}
+
+button.soft-blue-button {
+  color: var(--dark-blue);
+  background-color: var(--blue);
+}
+
+:hover:is(
+    button.soft-white-button,
+    button.white-button,
+    button.soft-blue-button
+  ) {
+  transition: all 200ms ease-in-out;
+  color: var(--white);
+  border: transparent;
+  background-color: var(--dark-blue);
+}
+
+:hover:is(button.blue-button) {
+  transition: all 200ms ease-in-out;
+  color: var(--dark-blue);
+  background-color: var(--blue);
+}
+
+/* ================================================ */
+
+/* Contact Us Button */
+
+button.submit {
+  width: 100%;
+  padding: 6px 24px;
+  border-radius: 8px;
+  color: var(--white);
+  background-color: var(--dark-blue);
+}
